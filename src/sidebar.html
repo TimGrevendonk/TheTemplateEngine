@@ -1,0 +1,52 @@
+<!--/**-->
+<!--* Sidebar on the left side of the screen, with mobile support.-->
+<!--* Arrow to slide content in and out, Supports links and dropdown with sub-sections.-->
+<!--* If sidebar is in "hidden" mode, the links are not clickable.-->
+<!--* A body margin is worked into the page to have the body still centered in the leftover space.-->
+<!--* The top element of the pages may NOT have a top margin (even bia bootstrap).-->
+<!--**/-->
+<nav id="sidebar__nav">
+    <div class="sidebar__nav__section">
+        <a class="sidebar__nav__anchor" href="../index.html">
+            <h1 class="sidebar__nav__title">
+                Title of the sidebar
+            </h1>
+        </a>
+    </div>
+    <div class="sidebar__nav__section">
+        <h2 class="sidebar__nav__subtitle" id="page-titel">subtitle</h2>
+        <!--all de navigation items (pages)-->
+        <ul class="list-unstyled sidebar__nav__collection">
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="../index.html">link 1</a>
+            </li>
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="../index.html">link 2</a>
+            </li>
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="../index.html">link 3</a>
+            </li>
+            <li class="sidebar__nav__item">
+                <a href="#sidebar__more-items" data-toggle="collapse" aria-expanded="false"
+                   class="sidebar__nav__anchor dropdown-toggle">sub section</a>
+            </li>
+        </ul>
+        <ul class="collapse list-unstyled sidebar__nav__subcollection" id="sidebar__more-items">
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="#">sub-link 1</a>
+            </li>
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="#">sub-link 2</a>
+            </li>
+            <li class="sidebar__nav__item">
+                <a class="sidebar__nav__anchor" href="#">sub-link 3</a>
+            </li>
+        </ul>
+    </div>
+    <div class="sidebar__nav__toggle">
+        <div class="sidebar__nav__bottom-icon">
+            <i class="fas fa-angle-double-left fa-3x sidebar__nav__arrow"></i>
+            <i class="fas fa-angle-double-right fa-3x sidebar__nav__arrow" style="display:none"></i>
+        </div>
+    </div>
+</nav>
