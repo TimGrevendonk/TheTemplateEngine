@@ -1,5 +1,8 @@
+
 #The template engine.
+
 ##How it works:
+
 Get all the needed "modules" out of this project to create your project with ease.
 the modules are (normally) build, so they can be implemented individually without breaking previous code or only slight adjustment.
 Of course some debugging could be needed.
