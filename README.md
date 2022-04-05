@@ -34,7 +34,7 @@ Every module has its own name and corresponding files/parts.
 ##Testing project with gulpfile.js:
 (testing follows the folder structure like this project)
 <ul>
-<li>Copy the "gulpfile.js" to the root of your file.</li>
+<li>Copy the "gulpfile.js" and "package.json" to the root of your file.</li>
 <li>terminal: npm install</li>
 <li>Have a src folder (the css file will be compiled into this).</li>
 <li>Have a scss folder with the .scss files in.</li>
